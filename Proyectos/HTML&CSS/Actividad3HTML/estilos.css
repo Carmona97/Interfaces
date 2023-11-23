@@ -1,0 +1,46 @@
+/* Todos los elementos de la pagina */
+*{
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+table,tr,td{
+  border: 1px black double;
+}
+
+#teal{
+  color: teal;
+}
+#red{
+  color: red;
+}
+#blue{
+  color: blue;
+}
+#orange{
+  color: orange;
+}
+#purple{
+  color: purple;
+}
+#olive{
+  color: olive;
+}
+#fuchsia{
+  color: fuchsia;
+}
+#green{
+  color: green;
+}
+
+.rojo{
+  background-color: red;
+}
+.verde{
+  background-color: green;
+}
+.azul{
+  background-color: blue;
+}
+
+

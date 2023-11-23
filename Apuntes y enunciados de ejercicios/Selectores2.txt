@@ -1,0 +1,32 @@
+A partir de la página web que se te proporciona, debes escribir las reglas CSS necesarias para lograr una página web que tenga el siguiente funcionamiento:
+
+En su estado normal, un enlace se muestra de color rojo y sin subrayado (propiedad text-decoration).
+Cuando el usuario sitúa el cursor del ratón sobre un enlace, se invierten los colores (el texto del enlace se muestra con color blanco sobre un fondo rojo) y se muestra el subrayado.
+Cuando un enlace está activo, se muestra de color naranja y sin subrayado.
+Cuando un enlace ha sido visitado, se muestra de color verde oscuro y sin subrayado.
+Cuando un enlace tiene el foco del teclado, se muestra de color azul y se muestra el subrayado.
+Consejo: el orden de escritura de las reglas influye en el resultado final, ya que un enlace puede estar en varios estados al mismo tiempo.
+
+Se deben cambiar los enlaces proporcionados por enlaces reales
+
+Código base:
+-----------
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Ejercicio de selectores</title>
+</head>
+<body>
+<h1>IES Belén</h1>
+
+<ul>
+<li><a href="presentacion.html">Presentación</a></li>
+<li><a href="estudios.html">Estudios</a></li>
+<li><a href="alumnos.html">Alumnos</a></li>
+<li><a href="deportes.html">Deportes</a></li>
+<li><a href="servicios.html">Servicios</a></li>
+</ul>
+</body>
+</html>

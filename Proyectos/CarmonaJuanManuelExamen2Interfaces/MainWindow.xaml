@@ -1,0 +1,63 @@
+﻿<Window x:Class="CarmonaJuanManuelExamen2Interfaces.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CarmonaJuanManuelExamen2Interfaces"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="900" MinWidth="900" MinHeight="500">
+    <Grid Margin="0,5,0,-5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="150*"/>
+            <RowDefinition Height="300*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300*"/>
+
+            <ColumnDefinition Width="300*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel x:Name="divisaOrigen" Margin="225,23,8,8">
+            <Label Content="Seleccione su moneda:" Height="35" HorizontalAlignment="Center"/>
+            <RadioButton x:Name="radioEuro" Content="Euro" Height="31" HorizontalAlignment="Center"/>
+            <RadioButton x:Name="radioDolar" Content="Dólar" Height="28" HorizontalAlignment="Center"/>
+        </StackPanel>
+
+        <Grid x:Name="monedas" Margin="42,10,42,0" Grid.Column="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="10*"/>
+                <ColumnDefinition Width="10*"/>
+                <ColumnDefinition Width="10*"/>
+            </Grid.ColumnDefinitions>
+            <CheckBox x:Name="chRusia" Content="Rublo ruso" HorizontalAlignment="Left" Margin="22,45,0,0" VerticalAlignment="Top"/>
+            <CheckBox x:Name="chLituania" Content="Litas lituano" HorizontalAlignment="Left" Margin="22,75,0,0" VerticalAlignment="Top"/>
+            <Label Content="Seleccione las divisas de la conversión:" HorizontalAlignment="Left" Margin="101,10,0,0" VerticalAlignment="Top" Grid.ColumnSpan="3"/>
+            <CheckBox x:Name="chEuro" Content="Euro" HorizontalAlignment="Left" Margin="22,101,0,0" VerticalAlignment="Top"/>
+            <CheckBox x:Name="chCheca" Grid.Column="1" Content="Corona checa" HorizontalAlignment="Left" Margin="10,45,0,0" VerticalAlignment="Top"/>
+            <CheckBox x:Name="chDanesa" Grid.Column="1" Content="Corona danesa" HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top"/>
+            <CheckBox x:Name="chNoruega" Grid.Column="1" Content="Corona noruega" HorizontalAlignment="Left" Margin="10,105,0,0" VerticalAlignment="Top"/>
+            <CheckBox x:Name="chSuiza" Grid.Column="2" Content="Franco suizo" HorizontalAlignment="Left" Margin="14,45,0,0" VerticalAlignment="Top"/>
+            <CheckBox x:Name="chLibra" Grid.Column="2" Content="Libra" HorizontalAlignment="Left" Margin="14,72,0,0" VerticalAlignment="Top"/>
+            <CheckBox x:Name="chLira" Grid.Column="2" Content="Lira turca" HorizontalAlignment="Left" Margin="14,105,0,0" VerticalAlignment="Top"/>
+        </Grid>
+
+        <StackPanel x:Name="pago" Margin="30,142,0,167" Grid.RowSpan="2">
+            <Label Content="Elija su método de pago:" HorizontalAlignment="Center" Height="37"/>
+            <RadioButton x:Name="radioEfectivo" Content="Efectivo" Height="32" HorizontalAlignment="Center"/>
+            <RadioButton x:Name="radioTransferencia" Content="Transferencia" Height="37" HorizontalAlignment="Center"/>
+            <RadioButton x:Name="radioTarjeta" Content="Tarjeta" Height="38" HorizontalAlignment="Center"/>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Margin="30,156,10,26">
+            <CheckBox x:Name="chkDescuento" Content="Descuento" HorizontalAlignment="Center" Margin="0,0,0,20"/>
+            <Button Content="CALCULAR" Width="154" Height="33" Click="CalcularButton_Click"/>
+            <Button Content="RESET" Width="155" Margin="0,10,0,0" Height="34" Click="Button_Click"/>
+        </StackPanel>
+        <StackPanel Margin="55,27,230,8">
+            <Label Content="Seleccione cantidad:" HorizontalAlignment="Center" Height="48"/>
+            <TextBox x:Name="txtCantidad" TextWrapping="Wrap" Width="120" Height="23" BorderBrush="Black"/>
+        </StackPanel>
+        <TextBlock x:Name="listaDivisas" Grid.Column="1" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Height="287" Width="408"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="1" Margin="0,161,42,60" Grid.RowSpan="2"/>
+
+
+    </Grid>
+</Window>

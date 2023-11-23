@@ -1,0 +1,73 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EmpleadosNuevo"
+        xmlns:Collections="clr-namespace:System.Collections;assembly=System.Runtime" x:Class="EmpleadosNuevo.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="1012" Width="1464" MinWidth="1200" MinHeight="700" SizeToContent="WidthAndHeight" ResizeMode="CanResizeWithGrip">
+    <Grid MinWidth="200" MinHeight="420" Background="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}" Margin="10,0,0,0" Height="968" VerticalAlignment="Center" HorizontalAlignment="Left" Width="535">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Label x:Name="nombre" Content="Nombre" HorizontalAlignment="Left" Margin="26,50,0,0" VerticalAlignment="Top" Height="26" Width="67" FontWeight="Bold"/>
+        <Label x:Name="apellidos" Content="Apellidos" HorizontalAlignment="Left" Margin="23,125,0,0" VerticalAlignment="Top" Height="31" Width="70" FontWeight="Bold"/>
+        <Label x:Name="telefono" Content="Teléfono" HorizontalAlignment="Left" Margin="26,203,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.364,-0.02" Height="28" Width="67" FontWeight="Bold"/>
+        <Label x:Name="direccion" Content="Dirección" HorizontalAlignment="Left" Margin="24,283,0,0" VerticalAlignment="Top" Height="26" Width="69" FontWeight="Bold"/>
+        <Button x:Name="insertar" Content="Insertar empleado" HorizontalAlignment="Left" Margin="318,356,0,0" VerticalAlignment="Top" Height="37" Width="112" Click="insertar_Click" BorderBrush="#FF712929" Background="#FFCBB2CC"/>
+        <Button x:Name="aceptar" Content="Modificar empleado" HorizontalAlignment="Left" Margin="318,426,0,0" VerticalAlignment="Top" Height="42" Width="112" Click="aceptar_Click" Background="#FFCBB2CC" BorderBrush="#FF712929"/>
+        <Button x:Name="borrar" Content="Borrar empleado" HorizontalAlignment="Left" Margin="318,504,0,0" VerticalAlignment="Top" Height="37" Width="112" Click="borrar_Click" IsEnabled="False" Background="#FFCBB2CC" BorderBrush="#FF712929"/>
+        <Button x:Name="reset" Content="_Reset" HorizontalAlignment="Left" Margin="318,586,0,0" VerticalAlignment="Top" Height="36" Width="112" Click="reset_Click" Background="#FFCBB2CC" BorderBrush="#FF712929"/>
+
+        <TextBox x:Name="textNombre" HorizontalAlignment="Left" Margin="98,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="18" TextChanged="textNombre_TextChanged" SelectionTextBrush="White"
+         GotFocus="textNombre_GotFocus" LostFocus="textNombre_LostFocus"/>
+        <TextBox x:Name="textApellidos" HorizontalAlignment="Left" Margin="98,132,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="18" RenderTransformOrigin="0.65,0.336" 
+         GotFocus="textApellidos_GotFocus" LostFocus="textApellidos_LostFocus"/>
+        <TextBox x:Name="textTelefono" HorizontalAlignment="Left" Margin="98,208,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="18" TextChanged="textTelefono_TextChanged"
+                 GotFocus="textTelefono_GotFocus" LostFocus="textTelefono_LostFocus"/>
+        <TextBox x:Name="textDireccion" HorizontalAlignment="Left" Margin="98,287,0,0" TextWrapping="Wrap" Text="&#xA;" VerticalAlignment="Top" Width="120" Height="22" TextChanged="textDireccion_TextChanged"
+                 GotFocus="textDireccion_GotFocus" LostFocus="textDireccion_LostFocus"/>
+        <CheckBox x:Name="hijoschk" Content="Hijos" HorizontalAlignment="Left" Margin="260,56,0,0" VerticalAlignment="Top" Height="27" Checked="hijos_Checked" Unchecked="hijos_UnChecked" Width="46"/>
+        <Slider x:Name="slider" HorizontalAlignment="Left" Margin="321,58,0,0" VerticalAlignment="Top" Width="148" Background="{x:Null}" Maximum="10" TickPlacement="BottomRight" TickFrequency="1" IsSnapToTickEnabled="True" Value="0" ValueChanged="Slider_ValueChanged" Height="24"/>
+        <TextBlock x:Name="valorSlider" HorizontalAlignment="Left" Margin="348,87,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="54" Height="16" Text="" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" TextAlignment="Center"/>
+        <RepeatButton Content="+" HorizontalAlignment="Left" Margin="413,160,0,0" VerticalAlignment="Top" Height="40" Width="40" BorderThickness="1,1,1,1" Click="ButtonMas_Click" Background="#FFCBB2CC" Delay="500" Interval="200"/>
+        <RepeatButton Content="-" HorizontalAlignment="Left" Margin="296,160,0,0" VerticalAlignment="Top" Height="40" Width="40" BorderThickness="1,1,1,1" Click="ButtonMenos_Click" Background="#FFCBB2CC" Delay="500" Interval="200"/>
+        <TextBlock x:Name="alturaTxt" HorizontalAlignment="Left" Margin="333,163,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="34" Width="84" TextAlignment="Center" FontSize="22" Text="1,70"/>
+        <DatePicker x:Name="fechaNacimientoPicker" HorizontalAlignment="Left" Margin="296,286,0,0" VerticalAlignment="Top" Width="157" Height="24"/>
+        <TextBlock HorizontalAlignment="Left" Margin="357,128,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold" Height="16" Width="45"><Run Language="es-es" Text="Altura"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="320,249,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold" Height="16" Width="116"><Run Language="es-es" Text="Fecha de nacimiento"/></TextBlock>
+        <ListBox x:Name="listBoxHijos" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="42,703,42,0" SelectionChanged="ListBox_SelectionChanged" Height="206" VerticalAlignment="Top"/>
+        <TextBox x:Name="nombreHijoTxt" HorizontalAlignment="Left" Margin="98,356,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="nombreHijoTxt_TextChanged"/>
+        <Label Content="Nombre hijo" HorizontalAlignment="Left" Margin="16,352,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Button x:Name="anadirHijoBtn" Content="Añadir hijo" HorizontalAlignment="Left" Margin="79,426,0,0" VerticalAlignment="Top" Width="112" Height="40" Background="#FFCBB2CC" Click="anadirHijoBtn_Click"/>
+
+        <DataGrid x:Name="dataGrid" Margin="10,0,-909,-3" SelectionChanged="DataGrid_SelectionChanged" MinWidth="548" MinHeight="420" MinColumnWidth="100" MinRowHeight="30" IsReadOnly="True" Grid.IsSharedSizeScope="True" ColumnWidth="*" IsSynchronizedWithCurrentItem="False" Background="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}" BorderBrush="#FF2B6AA7" RenderTransformOrigin="0.5,0.5" Panel.ZIndex="1" Grid.Column="1" ClipToBounds="True" Height="971" VerticalAlignment="Bottom">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Nombre" Binding="{Binding nombre}" />
+                <DataGridTextColumn Header="Apellidos" Binding="{Binding apellidos}" />
+                <DataGridTextColumn Header="Teléfono" Binding="{Binding telefono}" />
+                <DataGridTextColumn Header="Dirección" Binding="{Binding direccion}" />
+                <DataGridTextColumn Header="Hijos" Binding="{Binding hijos}" />
+                <DataGridTextColumn Header="Altura" Binding="{Binding altura}" />
+                <DataGridTextColumn Header="Fecha de Nacimiento" Binding="{Binding fechaNacimiento}" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <TextBox x:Name="busqueda" HorizontalAlignment="Left" Margin="98,513,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="buscar" Content="Buscar:" HorizontalAlignment="Left" Margin="33,508,0,0" VerticalAlignment="Top" Background="#FFCBB2CC" BorderBrush="#FF712929" Height="30" Width="53" Click="buscar_Click"/>
+        <Button x:Name="recargar" Content="Recargar rejilla" HorizontalAlignment="Left" Margin="88,562,0,0" VerticalAlignment="Top" Height="38" Width="94" Background="#FFCBB2CC" BorderBrush="#FF712929" Click="recargar_Click"/>
+        <Grid.ContextMenu>
+            <ContextMenu Name="backgroundColorMenu">
+                <MenuItem Header="Cambiar Fondo">
+                    <MenuItem Name="blueMenuItem" Header="Azul" Click="blueMenuItem_Click" />
+                    <MenuItem Name="greenMenuItem" Header="Verde" Click="greenMenuItem_Click" />
+                    <MenuItem Name="redMenuItem" Header="rojo" Click="redMenuItem_Click" />
+                </MenuItem>
+            </ContextMenu>
+        </Grid.ContextMenu>
+    </Grid>
+</Window>
