@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/estilos.css">
+  <script src="https://kit.fontawesome.com/c3c140fcce.js" crossorigin="anonymous"></script>
+  <title>Formulario</title>
+</head>
+
+<body>
+  <div id="contenedor">
+  <form>
+    <ul id="infoMatricula">
+      <li>
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" placeholder="" required maxlength="20" >
+      </li>
+      <li>
+        <label for="apellidos">Apellidos</label>
+        <input type="text" id="apellidos" placeholder="" required minlength="10" maxlength="80">
+      </li>
+      <li>
+      <li>
+        <label for="horas">Horas matriculadas</label>
+        <input type="number" id="horas" placeholder="" inputmode="numeric" value="20" min="10" max="30" step="2">
+      </li>
+      <li>
+        <label for="codigo" >Codigo usuario</label>
+        <input type="numeric" id="codigo" value="6424547" readonly></input>
+      </li>
+      <li>
+        <label for="username">Nombre de usuario</label>
+        <input type="text" id="username" pattern="^[a-z0-9]*$" title="Solo admite numeros y minusculas">
+        
+      </li>
+    </ul>
+    <button type="submit">Guardar</button>
+  </form>
+</div>
+</body>
+
+</html>

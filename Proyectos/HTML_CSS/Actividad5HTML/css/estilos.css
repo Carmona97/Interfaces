@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+body{
+    font-family: 'Amatic SC', cursive;
+    font-size: x-large;
+    background-image: url(../img/cole.jpg);
+}
+
+div#contenedor{
+    width: 30%;
+  margin: 0 auto;
+  margin-top: 10%;
+  border: 1px solid black;
+  box-shadow: black 3px 3px 3px 3px;
+  padding: 30px;
+  border-radius: 10px;
+  background-image: linear-gradient(to right bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+  
+}
+
+form{
+    display: list-item;
+    list-style: none;
+}
+
+ul#infoMatricula{
+    width: fit-content;
+    list-style: none;
+    margin: 0 auto;
+}
+#infoMatricula li{
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input,output{
+    width: 100%;
+}
+
+button{
+    width: 30%;
+    margin-top: 30px;
+    position: relative;
+    left: 37%;
+    height: 40px;
+    border-radius: 20px;
+    background-image: linear-gradient(to left top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);    color: #2F4858;
+    font-size: large;
+}
+
+button:hover{
+    background: white;
+    color: black;
+}
