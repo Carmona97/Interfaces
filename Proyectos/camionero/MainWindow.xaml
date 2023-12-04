@@ -1,0 +1,63 @@
+﻿<Window x:Class="camionero.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:camionero"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="900" MinWidth="770" MinHeight="450">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="300*"/>
+            <RowDefinition Height="300*"/>
+            <RowDefinition Height="300*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150*"/>
+            <ColumnDefinition Width="150*"/>
+            <ColumnDefinition Width="150*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Mercancia" HorizontalAlignment="Center" Margin="0,20,0,0" VerticalAlignment="Top"/>
+        <StackPanel x:Name="radioMercancia" Margin="38,46,38,14">
+            <RadioButton x:Name="rAceite" Content="Aceite" Margin="0,20,0,5"/>
+            <RadioButton x:Name="rFruta" Content="Fruta" Margin="0,0,0,5"/>
+            <RadioButton x:Name="rPeligro" Content="Mercancias peligrosas"/>
+        </StackPanel>
+        <Label Grid.Column="1" Content="Transporte" HorizontalAlignment="Center" Margin="0,20,0,0" VerticalAlignment="Top"/>
+        <StackPanel Grid.Column="1" Margin="41,59,41,33">
+            <RadioButton x:Name="rRoja" Content="Ruta roja" Margin="0,5,0,0"/>
+            <RadioButton x:Name="rAzul" Content="Ruta azul" Margin="0,5,0,0"/>
+        </StackPanel>
+        <CheckBox x:Name="chkNoche" Grid.Column="1" Content="Nocturnidad" HorizontalAlignment="Left" Margin="41,117,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="chkRemolque" Grid.Column="1" Content="Remolque" HorizontalAlignment="Left" Margin="175,117,0,0" VerticalAlignment="Top"/>
+        <Label Content="Ruta roja" HorizontalAlignment="Center" Margin="0,3,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+        <Label Grid.Column="1" Content="Ruta azul" HorizontalAlignment="Center" Margin="0,3,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+        <ListBox x:Name="listRoja" Grid.Row="1" Margin="10,34,10,10" Grid.RowSpan="2" Background="#FFE8A8A8" SelectionChanged="listRoja_SelectionChanged" SelectionMode="Multiple">
+            <ListBoxItem x:Name="granada" Content="Granada"/>
+            <ListBoxItem x:Name="jaen" Content="Jaen"/>
+            <ListBoxItem x:Name="ciudadreal" Content="Ciudad Real"/>
+            <ListBoxItem x:Name="toledo" Content="Toledo"/>
+            <ListBoxItem x:Name="madrid" Content="Madrid"/>
+            <ListBoxItem x:Name="guadalajara" Content="Guadalajara"/>
+            <ListBoxItem x:Name="zaragoza" Content="Zaragoza"/>
+            <ListBoxItem x:Name="lerida" Content="Lérida"/>
+            <ListBoxItem x:Name="barcelona" Content="Barcelona"/>
+        </ListBox>
+        <ListBox x:Name="listAzul" Grid.Column="1" Grid.Row="1" Margin="10,34,10,10" Grid.RowSpan="2" Background="#FFA599E4" SelectionChanged="listAzul_SelectionChanged" SelectionMode="Multiple">
+            <ListBoxItem x:Name="sevilla" Content="Sevilla"/>
+            <ListBoxItem x:Name="merida" Content="Mérida"/>
+            <ListBoxItem x:Name="caceres" Content="Cáceres"/>
+            <ListBoxItem x:Name="salamanca" Content="Salamanca"/>
+            <ListBoxItem x:Name="zamora" Content="Zamora"/>
+            <ListBoxItem x:Name="orense" Content="Orense"/>
+            <ListBoxItem x:Name="pontevedra" Content="Pontevedra"/>
+            <ListBoxItem x:Name="santiago" Content="Santiago"/>
+            <ListBoxItem x:Name="coruña" Content="Coruña"/>
+        </ListBox>
+        <TextBlock x:Name="factura" Grid.Column="2" HorizontalAlignment="Center" Margin="0,34,0,10" TextWrapping="Wrap" Width="280" Grid.RowSpan="2" Background="#FFE4D5D5" Grid.Row="1"/>
+        <Label Grid.Column="2" Content="Factura" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,3,0,0" Grid.Row="1"/>
+        <Button x:Name="btnFactura" Grid.Column="2" Content="Calcular factura" HorizontalAlignment="Center" Margin="0,97,0,0" VerticalAlignment="Top" Width="108" Click="btnFactura_Click"/>
+        <Button x:Name="limpiar" Grid.Column="2" Content="Reiniciar datos" HorizontalAlignment="Center" Margin="0,52,0,0" VerticalAlignment="Top" Width="108" Click="limpiar_Click"/>
+
+    </Grid>
+</Window>
