@@ -1,0 +1,13 @@
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\toggleButton\bin\Debug\toggleButton.dll
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\toggleButton\bin\Debug\toggleButton.pdb
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\toggleButton\obj\Debug\toggleButton.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\toggleButton\obj\Debug\UserControl1.g.cs
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\toggleButton\obj\Debug\toggleButton_MarkupCompile.cache
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\toggleButton\obj\Debug\toggleButton_MarkupCompile.lref
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\toggleButton\obj\Debug\UserControl1.baml
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\toggleButton\obj\Debug\toggleButton.g.resources
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\toggleButton\obj\Debug\toggleButton.Properties.Resources.resources
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\toggleButton\obj\Debug\toggleButton.csproj.GenerateResource.cache
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\toggleButton\obj\Debug\toggleButton.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\toggleButton\obj\Debug\toggleButton.dll
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\toggleButton\obj\Debug\toggleButton.pdb

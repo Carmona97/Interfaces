@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap');
+
+body{   
+    font-family: 'Roboto';
+    margin: 0 auto;
+}
+
+#primCaja{
+
+    background-color: #ECEEF3;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    width: 75%;
+    margin: auto;
+    
+}
+
+#enlaces{
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+#segunCaja{
+    background-color: #ECEEF3;
+    
+}
+#alinearTextoSC{
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+
+#alinearTextoSC h1{
+    color: #182941;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#cuadrarAncho{
+    width: 75%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+#cuadrarAncho img{
+    width: 50%;
+    height: 100%;
+}
+
+#textoSegunCaja button{
+    width: 160px;
+    height: 40px;
+    background-color: #51B0DF;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid;
+}
+
+p#hola{
+    margin: auto;
+    font-size: 22px;
+    color: #51B0DF;
+}
+
+#terceraCaja{
+    background-color: #BEE0F1;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#hijoTerceraCaja{
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.elementosHijoTC{
+    width: 25%;
+    text-align: center;
+}
+
+.elementosHijoTC img{
+    width: 120px;
+}
+.TCimg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+#cuartaCaja{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#cuartaCaja h2{
+    text-align: center;
+}
+
+#cuartaCajaimgs img{
+    width: 24%;
+}
+
+#cuartaCajaimgs{
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+
+}

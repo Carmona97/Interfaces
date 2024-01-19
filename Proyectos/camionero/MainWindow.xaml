@@ -19,9 +19,12 @@
         </Grid.ColumnDefinitions>
         <Label Content="Mercancia" HorizontalAlignment="Center" Margin="0,20,0,0" VerticalAlignment="Top"/>
         <StackPanel x:Name="radioMercancia" Margin="38,46,38,14">
-            <RadioButton x:Name="rAceite" Content="Aceite" Margin="0,20,0,5"/>
-            <RadioButton x:Name="rFruta" Content="Fruta" Margin="0,0,0,5"/>
-            <RadioButton x:Name="rPeligro" Content="Mercancias peligrosas"/>
+            <StackPanel.BindingGroup>
+                <BindingGroup/>
+            </StackPanel.BindingGroup>
+            <RadioButton x:Name="rAceite" Content="Aceite" Margin="0,20,0,5" GroupName="{Binding ElementName=radioMercancia, Mode=OneWay}"/>
+            <RadioButton x:Name="rFruta" Content="Fruta" Margin="0,0,0,5" GroupName="{Binding ElementName=radioMercancia, Mode=OneWay}"/>
+            <RadioButton x:Name="rPeligro" Content="Mercancias peligrosas" GroupName="{Binding ElementName=radioMercancia, Mode=OneWay}"/>
         </StackPanel>
         <Label Grid.Column="1" Content="Transporte" HorizontalAlignment="Center" Margin="0,20,0,0" VerticalAlignment="Top"/>
         <StackPanel Grid.Column="1" Margin="41,59,41,33">

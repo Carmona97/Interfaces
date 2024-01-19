@@ -1,0 +1,13 @@
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\componente1connetFramework\bin\Debug\componente1connetFramework.dll
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\componente1connetFramework\bin\Debug\componente1connetFramework.pdb
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\componente1connetFramework\obj\Debug\componente1connetFramework.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\componente1connetFramework\obj\Debug\UserControl1.g.cs
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\componente1connetFramework\obj\Debug\componente1connetFramework_MarkupCompile.cache
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\componente1connetFramework\obj\Debug\componente1connetFramework_MarkupCompile.lref
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\componente1connetFramework\obj\Debug\UserControl1.baml
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\componente1connetFramework\obj\Debug\componente1connetFramework.g.resources
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\componente1connetFramework\obj\Debug\componente1connetFramework.Properties.Resources.resources
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\componente1connetFramework\obj\Debug\componente1connetFramework.csproj.GenerateResource.cache
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\componente1connetFramework\obj\Debug\componente1connetFramework.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\componente1connetFramework\obj\Debug\componente1connetFramework.dll
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\componente1connetFramework\obj\Debug\componente1connetFramework.pdb

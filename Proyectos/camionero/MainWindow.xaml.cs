@@ -204,6 +204,7 @@ namespace camionero
             listRoja.UnselectAll();
             chkNoche.IsChecked = false;
             chkRemolque.IsChecked = false;
+            radioMercancia.ClearSelection();
             
         }
     }

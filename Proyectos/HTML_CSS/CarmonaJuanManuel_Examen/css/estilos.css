@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body{   
+    font-family: 'Roboto';
+    margin: 0 auto;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    width: 1300px;
+    margin: auto;
+}
+nav a{
+    text-decoration: none;
+}
+
+#primCaja h1{
+    width: 1300px;
+    margin: auto;
+}
+
+#primCaja h2{
+    color: white;
+}
+#primCaja h1,nav a{
+    color: white;
+    padding: 50px;
+}
+
+#primCaja{
+    background-image: url(../img/showcase.jpg);
+    height: 800px;
+}
+
+#contenedorTextoPrimCaja{
+    width: 1300px;
+    margin: auto;
+}
+
+#textoPrimCaja{
+    width: 60%;
+    color: white;
+    padding-bottom: 50px;
+}
+
+#imagen1{
+    background-image: url(../img/perseverance.jpg);
+    width: 400px;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#imagen2{
+    background-image: url(../img/missions.jpg);
+    width: 400px;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#imagen3{
+    background-image: url(../img/future.jpg);
+    width: 400px;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#imagenes{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-bottom: 50px;
+}
+
+#imagenes p{
+    color: white;
+    font-size: x-large;
+}
+#segunCaja{
+    height: 900px;
+    background-image: url(../img/feature.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#segunCaja p{
+    width: 1300px;
+    font-size: xx-large;
+    color: white;
+}
+#terceraCaja{
+    height: 900px;
+    background-image: url(../img/background-2.jpg);
+}
+
+#terceraCaja p,#terceraCaja h2{
+    padding: 30px;
+    color: white;
+}
+
+#terceraCaja img{
+    height: 360px;
+    width: 500px;
+}
+
+#perseverance1, #misiones1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1300px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+#cuartaCaja{
+    background-image: url(../img/background-3.jpg);
+    height: 800px;
+}
+#contenedorFeature{
+    color: white;
+    width: 80%;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#contenedorFeature p{
+    width: 1300px;
+    margin: auto;
+}
+
+#contenedorFeature h1{
+    text-align: center;
+}
+
+#cuartaCaja img{
+    display:block;
+    margin:auto;
+    height: 400px;
+    width: 600px;
+}
+footer p{
+    text-align: center;
+}
+

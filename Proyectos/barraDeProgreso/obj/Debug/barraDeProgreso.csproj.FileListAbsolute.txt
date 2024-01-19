@@ -1,0 +1,13 @@
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\barraDeProgreso\obj\Debug\barraDeProgreso.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\barraDeProgreso\obj\Debug\UserControl1.g.cs
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\barraDeProgreso\obj\Debug\barraDeProgreso_MarkupCompile.cache
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\barraDeProgreso\obj\Debug\barraDeProgreso_MarkupCompile.lref
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\barraDeProgreso\bin\Debug\barraDeProgreso.dll
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\barraDeProgreso\bin\Debug\barraDeProgreso.pdb
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\barraDeProgreso\obj\Debug\UserControl1.baml
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\barraDeProgreso\obj\Debug\barraDeProgreso.g.resources
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\barraDeProgreso\obj\Debug\barraDeProgreso.Properties.Resources.resources
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\barraDeProgreso\obj\Debug\barraDeProgreso.csproj.GenerateResource.cache
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\barraDeProgreso\obj\Debug\barraDeProgreso.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\barraDeProgreso\obj\Debug\barraDeProgreso.dll
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\barraDeProgreso\obj\Debug\barraDeProgreso.pdb

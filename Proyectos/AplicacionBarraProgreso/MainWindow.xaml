@@ -1,0 +1,22 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AplicacionBarraProgreso"
+        xmlns:barraDeProgreso="clr-namespace:barraDeProgreso;assembly=barraDeProgreso" x:Class="AplicacionBarraProgreso.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="131" Width="330">
+    <Grid Margin="0,0,0,4">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <barraDeProgreso:UserControl1 x:Name="miBarra" BarraProgreso="0" Margin="52,23,52,0" Grid.ColumnSpan="2" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="38" VerticalAlignment="Top"/>
+        <Button x:Name="anadirProgreso" Content="Añadir progreso" Margin="0,70,9,0" Click="anadirProgreso_Click" Height="21" VerticalAlignment="Top" HorizontalAlignment="Right" Width="103"/>
+        <Button x:Name="reiniciarProgreso" Content="Reiniciar progreso" Margin="11,70,0,0" HorizontalAlignment="Left" Width="103" Height="21" VerticalAlignment="Top" Grid.Column="1" Click="reiniciarProgreso_Click"/>
+    </Grid>
+</Window>
