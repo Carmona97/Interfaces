@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:toggleButton"
              mc:Ignorable="d" Height="12" Width="20">
     <Grid>
-        <CheckBox Content="CheckBox" Margin="0,1,0,2" Checked="CheckBox_Checked">
+        <CheckBox x:Name="miCheck" Content="CheckBox" Margin="0,1,0,2"  Background="White" Checked="miCheck_Checked">
             <CheckBox.Style>
 
                 <Style TargetType="{x:Type CheckBox}">

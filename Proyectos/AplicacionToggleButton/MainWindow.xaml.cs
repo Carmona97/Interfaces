@@ -24,7 +24,8 @@ namespace AplicacionToggleButton
         public MainWindow()
         {
             InitializeComponent();
-        }
+            
+    }
 
     }
 }

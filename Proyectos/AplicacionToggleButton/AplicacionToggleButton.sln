@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AplicacionToggleButton", "A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "toggleButton", "..\toggleButton\toggleButton.csproj", "{5A04BA7B-9FFF-4164-92FF-D3BE749DEAD9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "barraDeProgreso", "..\barraDeProgreso\barraDeProgreso.csproj", "{CD748319-9D0C-49BF-8ABC-0D53F8097166}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5A04BA7B-9FFF-4164-92FF-D3BE749DEAD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A04BA7B-9FFF-4164-92FF-D3BE749DEAD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A04BA7B-9FFF-4164-92FF-D3BE749DEAD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD748319-9D0C-49BF-8ABC-0D53F8097166}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD748319-9D0C-49BF-8ABC-0D53F8097166}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD748319-9D0C-49BF-8ABC-0D53F8097166}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD748319-9D0C-49BF-8ABC-0D53F8097166}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

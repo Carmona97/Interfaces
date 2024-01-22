@@ -9,10 +9,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
-        <toggleButton:UserControl1 x:Name="miToggle" HorizontalAlignment="Left" Margin="60,10,0,0" VerticalAlignment="Top" Width="51" Height="33" />
-        <xctk:ColorPicker x:Name="miSelectorColor" HorizontalAlignment="Left" Margin="162,16,0,0" VerticalAlignment="Top" Width="152" ColorMode="ColorCanvas"/>
         <TextBlock x:Name="texto" HorizontalAlignment="Left" Margin="238,175,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <toggleButton:UserControl1 HorizontalAlignment="Left" Margin="24,10,0,0" VerticalAlignment="Top" Height="29" Width="47" establecerColor="#FFC87878"/>
 
     </Grid>
 </Window>
