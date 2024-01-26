@@ -1,0 +1,150 @@
+﻿<UserControl x:Class="relojDigital.UserControl1"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:relojDigital"
+             mc:Ignorable="d" 
+             d:DesignHeight="80" d:DesignWidth="180">
+    <Grid>
+        <Rectangle x:Name="hd2" Height="18" Stroke="Black" Width="6" Margin="7,20,147,42"/>
+        <Rectangle x:Name="hd1" Height="18" Stroke="Black" Width="6" Margin="29,9,145,53" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle x:Name="hd3" Height="18" Stroke="Black" Width="6" Margin="31,20,123,42"/>
+        <Rectangle x:Name="hd4" Height="18" Stroke="Black" Width="6" Margin="19,32,135,30" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle x:Name="hd5" Height="18" Stroke="Black" Width="6" Margin="7,44,147,18"/>
+        <Rectangle x:Name="hd6" Height="18" Stroke="Black" Width="6" Margin="31,44,123,18"/>
+        <Rectangle x:Name="hd7" Height="18" Stroke="Black" Width="6" Margin="19,55,135,7" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle x:Name="hu2" Height="18" Stroke="Black" Width="6" Margin="41,20,113,42"/>
+        <Rectangle x:Name="hu1" Height="18" Stroke="Black" Width="6" Margin="53,9,101,53" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle x:Name="hu3" Height="18" Stroke="Black" Width="6" Margin="65,20,89,42"/>
+        <Rectangle x:Name="hu4" Height="18" Stroke="Black" Width="6" Margin="53,32,101,30" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle x:Name="hu5" Height="18" Stroke="Black" Width="6" Margin="41,44,113,18"/>
+        <Rectangle x:Name="hu6" Height="18" Stroke="Black" Width="6" Margin="65,44,89,18"/>
+        <Rectangle x:Name="hu7" Height="18" Stroke="Black" Width="6" Margin="53,55,101,7" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="5" Margin="90,35,0,0" Stroke="Black" VerticalAlignment="Top" Width="5" Fill="Black"/>
+        <Rectangle HorizontalAlignment="Left" Height="5" Margin="90,48,0,0" Stroke="Black" VerticalAlignment="Top" Width="5" Fill="Black"/>
+        <Rectangle x:Name="md2" Height="18" Stroke="Black" Width="6" Margin="94,20,60,42"/>
+        <Rectangle x:Name="md1" Height="18" Stroke="Black" Width="6" Margin="106,9,48,53" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle x:Name="md3" Height="18" Stroke="Black" Width="6" Margin="118,20,36,42"/>
+        <Rectangle x:Name="md4" Height="18" Stroke="Black" Width="6" Margin="106,32,48,30" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle x:Name="md5" Height="18" Stroke="Black" Width="6" Margin="94,44,60,18"/>
+        <Rectangle x:Name="md6" Height="18" Stroke="Black" Width="6" Margin="118,44,36,18"/>
+        <Rectangle x:Name="md7" Height="18" Stroke="Black" Width="6" Margin="106,55,48,7" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle x:Name="mu2" Height="18" Stroke="Black" Width="6" Margin="128,20,26,42"/>
+        <Rectangle x:Name="mu1" Height="18" Stroke="Black" Width="6" Margin="140,9,14,53" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle x:Name="mu3" Height="18" Stroke="Black" Width="6" Margin="152,20,2,42"/>
+        <Rectangle x:Name="mu4" Height="18" Stroke="Black" Width="6" Margin="140,32,14,30" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle x:Name="mu5" Height="18" Stroke="Black" Width="6" Margin="128,44,26,18"/>
+        <Rectangle x:Name="mu6" Height="18" Stroke="Black" Width="6" Margin="152,44,2,18"/>
+        <Rectangle x:Name="mu7" Height="18" Stroke="Black" Width="6" Margin="140,55,14,7" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+
+    </Grid>
+</UserControl>

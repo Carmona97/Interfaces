@@ -1,0 +1,4 @@
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\relojDigital\obj\Debug\relojDigital.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\relojDigital\obj\Debug\UserControl1.g.cs
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\relojDigital\obj\Debug\relojDigital_MarkupCompile.cache
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\relojDigital\obj\Debug\relojDigital_MarkupCompile.lref
