@@ -42,6 +42,7 @@ namespace PracticaPreexamen
             else if(contrasena.Password.Length <= 4)
             {
                 debil.Visibility = Visibility.Visible;
+                medio.Visibility = Visibility.Hidden;
                 valorContrasena.Content = "El nivel de seguridad es: débil";
             }
             else if(contrasena.Password.Length >= 5 && contrasena.Password.Length <= 8)

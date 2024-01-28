@@ -1,0 +1,13 @@
+C:\DAM\Interfaces\Proyectos\blocNotas\blocNotas\obj\Debug\blocNotas.csproj.AssemblyReference.cache
+C:\DAM\Interfaces\Proyectos\blocNotas\blocNotas\obj\Debug\UserControl1.g.cs
+C:\DAM\Interfaces\Proyectos\blocNotas\blocNotas\obj\Debug\blocNotas_MarkupCompile.cache
+C:\DAM\Interfaces\Proyectos\blocNotas\blocNotas\obj\Debug\blocNotas_MarkupCompile.lref
+C:\DAM\Interfaces\Proyectos\blocNotas\blocNotas\bin\Debug\blocNotas.dll
+C:\DAM\Interfaces\Proyectos\blocNotas\blocNotas\bin\Debug\blocNotas.pdb
+C:\DAM\Interfaces\Proyectos\blocNotas\blocNotas\obj\Debug\UserControl1.baml
+C:\DAM\Interfaces\Proyectos\blocNotas\blocNotas\obj\Debug\blocNotas.g.resources
+C:\DAM\Interfaces\Proyectos\blocNotas\blocNotas\obj\Debug\blocNotas.Properties.Resources.resources
+C:\DAM\Interfaces\Proyectos\blocNotas\blocNotas\obj\Debug\blocNotas.csproj.GenerateResource.cache
+C:\DAM\Interfaces\Proyectos\blocNotas\blocNotas\obj\Debug\blocNotas.csproj.CoreCompileInputs.cache
+C:\DAM\Interfaces\Proyectos\blocNotas\blocNotas\obj\Debug\blocNotas.dll
+C:\DAM\Interfaces\Proyectos\blocNotas\blocNotas\obj\Debug\blocNotas.pdb

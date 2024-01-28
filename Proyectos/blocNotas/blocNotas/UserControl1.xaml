@@ -1,0 +1,24 @@
+﻿<UserControl x:Class="blocNotas.UserControl1"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:blocNotas"
+             mc:Ignorable="d" 
+             d:DesignHeight="350" d:DesignWidth="600">
+    <UserControl.Resources>
+        <SolidColorBrush x:Key="TextBoxBackground1" Color="White"/>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <TextBox Background="{DynamicResource TextBoxBackground1}" x:Name="editarTexto" HorizontalAlignment="Center" Margin="0,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="172" Height="109"/>
+        <Label Content="Editar nota" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <Rectangle x:Name="marco" Grid.Column="1" HorizontalAlignment="Center" Height="109" Margin="0,31,0,0" Stroke="Black" VerticalAlignment="Top" Width="180"/>
+        <TextBlock x:Name="visualizar" Grid.Column="1" HorizontalAlignment="Center" Margin="0,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="109" Width="180" FontSize="10" FontFamily="Javanese Text"/>
+        <Label x:Name="textoV" Grid.Column="1" Content="Visualizar texto" HorizontalAlignment="Center" Margin="0,2,0,0" VerticalAlignment="Top" Height="24"/>
+
+    </Grid>
+</UserControl>
