@@ -1,0 +1,13 @@
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\CarmonaJuanManuelComponenteExamenT4\obj\Debug\CarmonaJuanManuelComponenteExamenT4.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\CarmonaJuanManuelComponenteExamenT4\obj\Debug\UserControl1.g.cs
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\CarmonaJuanManuelComponenteExamenT4\obj\Debug\CarmonaJuanManuelComponenteExamenT4_MarkupCompile.cache
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\CarmonaJuanManuelComponenteExamenT4\obj\Debug\CarmonaJuanManuelComponenteExamenT4_MarkupCompile.lref
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\CarmonaJuanManuelComponenteExamenT4\bin\Debug\CarmonaJuanManuelComponenteExamenT4.dll
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\CarmonaJuanManuelComponenteExamenT4\bin\Debug\CarmonaJuanManuelComponenteExamenT4.pdb
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\CarmonaJuanManuelComponenteExamenT4\obj\Debug\UserControl1.baml
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\CarmonaJuanManuelComponenteExamenT4\obj\Debug\CarmonaJuanManuelComponenteExamenT4.g.resources
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\CarmonaJuanManuelComponenteExamenT4\obj\Debug\CarmonaJuanManuelComponenteExamenT4.Properties.Resources.resources
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\CarmonaJuanManuelComponenteExamenT4\obj\Debug\CarmonaJuanManuelComponenteExamenT4.csproj.GenerateResource.cache
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\CarmonaJuanManuelComponenteExamenT4\obj\Debug\CarmonaJuanManuelComponenteExamenT4.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\CarmonaJuanManuelComponenteExamenT4\obj\Debug\CarmonaJuanManuelComponenteExamenT4.dll
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\CarmonaJuanManuelComponenteExamenT4\obj\Debug\CarmonaJuanManuelComponenteExamenT4.pdb
