@@ -1,0 +1,4 @@
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\AplicacionReportes\obj\Debug\AplicacionReportes.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\AplicacionReportes\obj\Debug\AplicacionReportes.Properties.Resources.resources
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\AplicacionReportes\obj\Debug\AplicacionReportes.csproj.GenerateResource.cache
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\AplicacionReportes\obj\Debug\AplicacionReportes.csproj.CoreCompileInputs.cache
