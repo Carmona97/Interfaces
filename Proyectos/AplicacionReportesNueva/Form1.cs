@@ -21,14 +21,14 @@ namespace AplicacionReportesNueva
         {
             OpenFileDialog seleccionarFichero = new OpenFileDialog();
             seleccionarFichero.InitialDirectory = "C:\\";
-            seleccionarFichero.Filter = "csv files (*.csv)";
+            seleccionarFichero.Filter = "csv files (*.csv) | *.csv";
             seleccionarFichero.FilterIndex = 1;
             seleccionarFichero.Multiselect = false;
 
             if (seleccionarFichero.ShowDialog() == DialogResult.OK)
             {
                 string nombreFichero = seleccionarFichero.FileName;
-                lblRutaFichero.Text = nombreFichero;
+                lblRutaFichero.Text = "Fichero seleccionado: "+nombreFichero;
             }
 
         }

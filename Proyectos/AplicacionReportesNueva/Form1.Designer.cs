@@ -56,11 +56,11 @@
             // lblRutaFichero
             // 
             this.lblRutaFichero.AutoSize = true;
-            this.lblRutaFichero.Location = new System.Drawing.Point(288, 241);
+            this.lblRutaFichero.Location = new System.Drawing.Point(139, 245);
             this.lblRutaFichero.Name = "lblRutaFichero";
-            this.lblRutaFichero.Size = new System.Drawing.Size(35, 13);
+            this.lblRutaFichero.Size = new System.Drawing.Size(111, 13);
             this.lblRutaFichero.TabIndex = 2;
-            this.lblRutaFichero.Text = "label1";
+            this.lblRutaFichero.Text = "Fichero seleccionado:";
             // 
             // Form1
             // 
