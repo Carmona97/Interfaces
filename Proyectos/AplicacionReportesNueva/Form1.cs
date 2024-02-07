@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AplicacionReportes;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -35,7 +36,9 @@ namespace AplicacionReportesNueva
 
         private void btnAceptar_Click(object sender, EventArgs e)
         {
-
+            Form2 nuevaVentana = new Form2();
+            nuevaVentana.Show();
+            
         }
     }
 }
