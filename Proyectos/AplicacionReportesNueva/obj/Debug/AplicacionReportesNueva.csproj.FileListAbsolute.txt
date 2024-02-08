@@ -60,3 +60,4 @@ C:\Users\Usuario\Desktop\Interfaces\Proyectos\AplicacionReportesNueva\obj\Debug\
 C:\Users\Usuario\Desktop\Interfaces\Proyectos\AplicacionReportesNueva\obj\Debug\AplicacionReportesNueva.csproj.CopyComplete
 C:\Users\Usuario\Desktop\Interfaces\Proyectos\AplicacionReportesNueva\obj\Debug\AplicacionReportes.exe
 C:\Users\Usuario\Desktop\Interfaces\Proyectos\AplicacionReportesNueva\obj\Debug\AplicacionReportes.pdb
+C:\Users\Usuario\Desktop\Interfaces\Proyectos\AplicacionReportesNueva\obj\Debug\AplicacionReportes.Form2.resources
