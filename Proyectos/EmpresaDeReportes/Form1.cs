@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Reporting.WinForms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -36,37 +37,43 @@ namespace EmpresaDeReportes
         private void button2_Click(object sender, EventArgs e)
         {
             
-            Form2 nuevaVentana = new Form2();
-            nuevaVentana.Show();
+
             string rutaCSV = lblRutaFichero.Text;
             StreamReader lecturaFichero = new StreamReader(rutaCSV);
 
             
             List<DatosDelCSV> objetosCSV = new List<DatosDelCSV>();
-           
-            while (lecturaFichero != null)
-            {
-                string leerLinea = lecturaFichero.ReadLine();
-                DatosDelCSV objetoNuevo = new DatosDelCSV();
-                string[] elementosLinea = leerLinea.Split(',');
-                objetoNuevo.levelType = elementosLinea[0];
-                objetoNuevo.code = elementosLinea[1];
-                objetoNuevo.catalogType = elementosLinea[2];
-                objetoNuevo.name = elementosLinea[3];
-                objetoNuevo.description = elementosLinea[4];
-                objetoNuevo.sourceLink = elementosLinea[5];
 
-                objetosCSV.Add(objetoNuevo);
+            string leerLinea = lecturaFichero.ReadLine();
+
+            while (leerLinea != null)
+            {
+                leerLinea = lecturaFichero.ReadLine();
+                if( leerLinea != null )
+                {
+                    DatosDelCSV objetoNuevo = new DatosDelCSV();
+                    string[] elementosLinea = leerLinea.Split(',');
+                    objetoNuevo.levelType = elementosLinea[0];
+                    objetoNuevo.code = elementosLinea[1];
+                    objetoNuevo.catalogType = elementosLinea[2];
+                    objetoNuevo.name = elementosLinea[3];
+                    objetoNuevo.description = elementosLinea[4];
+                    objetoNuevo.sourceLink = elementosLinea[5];
+
+                    objetosCSV.Add(objetoNuevo);
+                }
+
                                 
             }
 
-            BindingSource bs = new BindingSource();
-            bs.DataSource = typeof(DatosDelCSV);
+
+
+            Form2 nuevaVentana = new Form2(objetosCSV);
+            nuevaVentana.Show();
+
+
             
-            for(int i = 0; i < objetosCSV.Count; i++)
-            {
-                bs.Add(objetosCSV[i]);
-            }
+            
         }
 
         
