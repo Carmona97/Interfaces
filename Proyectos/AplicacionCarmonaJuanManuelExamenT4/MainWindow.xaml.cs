@@ -29,7 +29,14 @@ namespace AplicacionCarmonaJuanManuelExamenT4
 
         private void btnBuscar_Click(object sender, RoutedEventArgs e)
         {
-            
+            String palabraMasLarga = "";
+            foreach(String palabra in miControl.miColeccion){
+                if (palabra.Length > palabraMasLarga.Length)
+                {
+                    palabraMasLarga = palabra;
+                }
+            }
+            verElemento.Text = palabraMasLarga;
         }
     }
 }

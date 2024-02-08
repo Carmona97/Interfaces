@@ -1,0 +1,13 @@
+C:\DAM\Interfaces\Proyectos\PracticaPreexamen\PracticaPreexamen\bin\Debug\PracticaPreexamen.dll
+C:\DAM\Interfaces\Proyectos\PracticaPreexamen\PracticaPreexamen\bin\Debug\PracticaPreexamen.pdb
+C:\DAM\Interfaces\Proyectos\PracticaPreexamen\PracticaPreexamen\obj\Debug\PracticaPreexamen.csproj.AssemblyReference.cache
+C:\DAM\Interfaces\Proyectos\PracticaPreexamen\PracticaPreexamen\obj\Debug\UserControl1.g.cs
+C:\DAM\Interfaces\Proyectos\PracticaPreexamen\PracticaPreexamen\obj\Debug\PracticaPreexamen_MarkupCompile.cache
+C:\DAM\Interfaces\Proyectos\PracticaPreexamen\PracticaPreexamen\obj\Debug\PracticaPreexamen_MarkupCompile.lref
+C:\DAM\Interfaces\Proyectos\PracticaPreexamen\PracticaPreexamen\obj\Debug\UserControl1.baml
+C:\DAM\Interfaces\Proyectos\PracticaPreexamen\PracticaPreexamen\obj\Debug\PracticaPreexamen.g.resources
+C:\DAM\Interfaces\Proyectos\PracticaPreexamen\PracticaPreexamen\obj\Debug\PracticaPreexamen.Properties.Resources.resources
+C:\DAM\Interfaces\Proyectos\PracticaPreexamen\PracticaPreexamen\obj\Debug\PracticaPreexamen.csproj.GenerateResource.cache
+C:\DAM\Interfaces\Proyectos\PracticaPreexamen\PracticaPreexamen\obj\Debug\PracticaPreexamen.csproj.CoreCompileInputs.cache
+C:\DAM\Interfaces\Proyectos\PracticaPreexamen\PracticaPreexamen\obj\Debug\PracticaPreexamen.dll
+C:\DAM\Interfaces\Proyectos\PracticaPreexamen\PracticaPreexamen\obj\Debug\PracticaPreexamen.pdb

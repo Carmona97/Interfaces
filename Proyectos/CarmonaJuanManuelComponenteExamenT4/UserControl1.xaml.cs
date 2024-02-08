@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -50,6 +51,8 @@ namespace CarmonaJuanManuelComponenteExamenT4
 
         }
 
+        
+
         private void Texto_keydown(object sender, System.Windows.Input.KeyEventArgs e)
         {
             if (e.Key == Key.Enter)
@@ -59,6 +62,7 @@ namespace CarmonaJuanManuelComponenteExamenT4
                     lista.Items.Add(texto.Text);
                     texto.Text = "";
                     miSlider.Value = (double)lista.Items.Count;
+
                 }
                 else
                 {
