@@ -16,32 +16,11 @@ namespace InformeConPostgres1
 {
     public partial class Form1 : Form
     {
-/*      private NpgsqlConnection conn;
-        private NpgsqlDataAdapter adapter;
-        private DataSet dataSet;*/
-
         public Form1()
         {
 
         InitializeComponent();
 
-            /*          NpgsqlConnection conn = new NpgsqlConnection("Server=Localhost;Port=5432;Database=TuViajeFinDeCurso;User Id=postgres;Password=123;");
-                        conn.Open();
-                        NpgsqlCommand cmd = new NpgsqlCommand();
-                        cmd.Connection = conn;
-                        cmd.CommandType = CommandType.Text;
-                        cmd.CommandText = "select * from agencias";
-                        NpgsqlDataReader reader = cmd.ExecuteReader();
-                        if(reader.HasRows)
-                        {
-                            DataTable dt = new DataTable();
-                            dt.Load(reader);
-                            ReportDataSource miReport = new ReportDataSource("VuelosTVFDC",dt);
-                            this.reportViewer1.LocalReport.DataSources.Add(miReport);
-
-                        }
-                        cmd.Dispose();
-                        conn.Close();*/
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -50,12 +29,19 @@ namespace InformeConPostgres1
             string origen;
             string destino;
             string costo;
-            NpgsqlConnection conn = new NpgsqlConnection("Host=localhost;Port=5432;Username=postgres;Password=123;Database=TuViajeFinDeCurso");
+            string query = "SELECT vuelo_id,origen,destino,costo FROM vuelos";
+            string query2 = "SELECT * FROM agencias";
+            string conexionBBDD = "Host=localhost;Port=5432;Username=postgres;Password=123;Database=TuViajeFinDeCurso";
+            
+            NpgsqlConnection conn = new NpgsqlConnection(conexionBBDD);
             conn.Open();
-            NpgsqlCommand cmd = new NpgsqlCommand("SELECT vuelo_id,origen,destino,costo FROM vuelos", conn);
+            NpgsqlCommand cmd = new NpgsqlCommand(query, conn);
+            //NpgsqlCommand cmd2 = new NpgsqlCommand(query2, conn);
             NpgsqlDataReader reader = cmd.ExecuteReader();
+            //NpgsqlDataReader reader2 = cmd2.ExecuteReader();
 
-            List<Vuelos> listaDeVuelos = new List<Vuelos> ();
+            List<Vuelos> listaDeVuelos = new List<Vuelos>();
+            List<Agencia> listaDeAgencia = new List<Agencia>();
 
             while (reader.Read())
             {
@@ -63,70 +49,42 @@ namespace InformeConPostgres1
                 origen = reader[1].ToString();
                 destino = reader[2].ToString();
                 costo = reader[3].ToString();
+                Vuelos nuevoVuelo = new Vuelos(vuelo_id, origen, destino, costo);
+                listaDeVuelos.Add(nuevoVuelo);
             }
-          
-/*            // TODO: esta línea de código carga datos en la tabla 'tuViajeFinDeCursoDataSet.vuelos' Puede moverla o quitarla según sea necesario.
-            this.vuelosTableAdapter.Fill(this.tuViajeFinDeCursoDataSet.vuelos);*/
-            /*            // Establecer la conexión a la base de datos
-                        conn = new NpgsqlConnection("Host=localhost;Port=5432;Username=postgres;Password=123;Database=TuViajeFinDeCurso");
 
-                        // Establecer la consulta SQL
-                        string query = "SELECT vuelo_id,origen,destino,costo FROM public.vuelos;";
+            //while (reader2.Read())
+            //{
+            //    Agencia agencia = new Agencia {
+            //        agencia_id =  (int)reader2[0],
+            //        nombre_agencia= reader2[1].ToString(),
+            //        direccion_agencia= reader2[2].ToString(),
+            //        telefono_agencia= reader2[3].ToString()
+            //    };
+            //    listaDeAgencia.Add(agencia);
+            //}
 
-                        // Crear el adaptador NpgsqlDataAdapter
-                        adapter = new NpgsqlDataAdapter(query, conn);
+            //BindingSource bs = new BindingSource();
+            //bs.DataSource = typeof(Vuelos);
 
-                        // Crear e inicializar el DataSet
-                        dataSet = new DataSet();
+            //for (int i = 0; i < listaDeVuelos.Count; i++)
+            //{
+            //    bs.Add(listaDeVuelos[i]);
+            //}
 
-                        try
-                        {
-                            // Abrir la conexión
-                            conn.Open();
+            ReportDataSource ds = new ReportDataSource("Vuelos", listaDeVuelos);
+            //ReportDataSource ds2 = new ReportDataSource("DataSet1", listaDeAgencia);
+            reportViewer1.LocalReport.DataSources.Add(ds);
+            //reportViewer1.LocalReport.DataSources.Add(ds2);
 
-                            // Llenar el DataSet con los datos de la consulta
-                            adapter.Fill(dataSet, "VuelosTVFDC");
+            ReportParameterCollection parametro = new ReportParameterCollection();
 
-                            // Asignar el DataSet como origen de datos para el informe
-                            reportViewer1.LocalReport.DataSources.Add(new Microsoft.Reporting.WinForms.ReportDataSource("VuelosTVFDC", dataSet.Tables["VuelosTVFDC"]));
-                        }
-                        catch (Exception ex)
-                        {
-                            MessageBox.Show("Error al cargar datos desde la base de datos: " + ex.Message);
-                        }
-                        finally
-                        {
-                            // Cerrar la conexión
-                            conn.Close();
-                        }*/
+            parametro.Add(new ReportParameter("ReportParameter1", "Hola mundo"));
+
+            reportViewer1.LocalReport.SetParameters(parametro);
 
             this.reportViewer1.RefreshReport();
         }
 
-        private void mas500ToolStripButton_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                this.vuelosTableAdapter.mas500(this.tuViajeFinDeCursoDataSet.vuelos);
-            }
-            catch (System.Exception ex)
-            {
-                System.Windows.Forms.MessageBox.Show(ex.Message);
-            }
-
-        }
-
-        private void mas800ToolStripButton_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                this.vuelosTableAdapter.mas800(this.tuViajeFinDeCursoDataSet.vuelos);
-            }
-            catch (System.Exception ex)
-            {
-                System.Windows.Forms.MessageBox.Show(ex.Message);
-            }
-
-        }
     }
 }
