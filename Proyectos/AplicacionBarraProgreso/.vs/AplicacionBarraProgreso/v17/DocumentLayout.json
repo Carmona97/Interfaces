@@ -1,0 +1,84 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\juanm\\OneDrive\\Escritorio\\2DAM\\Interfaces\\Proyectos\\AplicacionBarraProgreso\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CD748319-9D0C-49BF-8ABC-0D53F8097166}|..\\barraDeProgreso\\barraDeProgreso.csproj|C:\\Users\\juanm\\OneDrive\\Escritorio\\2DAM\\Interfaces\\Proyectos\\barradeprogreso\\usercontrol1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD748319-9D0C-49BF-8ABC-0D53F8097166}|..\\barraDeProgreso\\barraDeProgreso.csproj|C:\\Users\\juanm\\OneDrive\\Escritorio\\2DAM\\Interfaces\\Proyectos\\barradeprogreso\\usercontrol1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F347E71B-F2E2-4DFE-ADE0-8173456F81FD}|AplicacionBarraProgreso.csproj|c:\\users\\juanm\\onedrive\\escritorio\\2dam\\interfaces\\proyectos\\aplicacionbarraprogreso\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F347E71B-F2E2-4DFE-ADE0-8173456F81FD}|AplicacionBarraProgreso.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F347E71B-F2E2-4DFE-ADE0-8173456F81FD}|AplicacionBarraProgreso.csproj|C:\\Users\\juanm\\OneDrive\\Escritorio\\2DAM\\Interfaces\\Proyectos\\AplicacionBarraProgreso\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F347E71B-F2E2-4DFE-ADE0-8173456F81FD}|AplicacionBarraProgreso.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\juanm\\OneDrive\\Escritorio\\2DAM\\Interfaces\\Proyectos\\AplicacionBarraProgreso\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\juanm\\OneDrive\\Escritorio\\2DAM\\Interfaces\\Proyectos\\AplicacionBarraProgreso\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-07T16:53:09.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserControl1.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\juanm\\OneDrive\\Escritorio\\2DAM\\Interfaces\\Proyectos\\barraDeProgreso\\UserControl1.xaml.cs",
+              "RelativeDocumentMoniker": "..\\barraDeProgreso\\UserControl1.xaml.cs",
+              "ToolTip": "C:\\Users\\juanm\\OneDrive\\Escritorio\\2DAM\\Interfaces\\Proyectos\\barraDeProgreso\\UserControl1.xaml.cs",
+              "RelativeToolTip": "..\\barraDeProgreso\\UserControl1.xaml.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAkwDEAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T16:53:08.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserControl1.xaml",
+              "DocumentMoniker": "C:\\Users\\juanm\\OneDrive\\Escritorio\\2DAM\\Interfaces\\Proyectos\\barraDeProgreso\\UserControl1.xaml",
+              "RelativeDocumentMoniker": "..\\barraDeProgreso\\UserControl1.xaml",
+              "ToolTip": "C:\\Users\\juanm\\OneDrive\\Escritorio\\2DAM\\Interfaces\\Proyectos\\barraDeProgreso\\UserControl1.xaml",
+              "RelativeToolTip": "..\\barraDeProgreso\\UserControl1.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-07T16:53:08.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\juanm\\OneDrive\\Escritorio\\2DAM\\Interfaces\\Proyectos\\AplicacionBarraProgreso\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\juanm\\OneDrive\\Escritorio\\2DAM\\Interfaces\\Proyectos\\AplicacionBarraProgreso\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T16:53:09.175Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+﻿<UserControl x:Class="relojAnalogico.Componente.UserControl1"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:relojAnalogico.Componente"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid Margin="1,-2,-1,-8">
+        <Ellipse HorizontalAlignment="Right" Height="2" Margin="0,0,737,392" Stroke="Black" VerticalAlignment="Bottom" Width="2"/>
+        <Ellipse Margin="0,0,675,329" Stroke="Black" HorizontalAlignment="Right" Width="125" Height="128" VerticalAlignment="Bottom"/>
+        <Rectangle x:Name="horas" HorizontalAlignment="Right" Height="23" Margin="0,0,736,393" Stroke="Black" VerticalAlignment="Bottom" Width="3" RenderTransformOrigin="0.5,1" Fill="#FFD8EA39">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform x:Name="anguloHoras" Angle="0"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle x:Name="minutos" HorizontalAlignment="Right" Height="45" Margin="0,0,736,393" Stroke="Black" VerticalAlignment="Bottom" Width="3" RenderTransformOrigin="0.5,1" Fill="#FF5FEA39" Opacity="0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform x:Name="anguloMinutos" Angle="180"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle x:Name="segundos" HorizontalAlignment="Right" Height="64" Margin="0,0,736,393" Stroke="Black" VerticalAlignment="Bottom" Width="3" RenderTransformOrigin="0.5,1" Fill="#FF2DDDEA" Opacity="0.25">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.11" ScaleY="0.901"/>
+                    <SkewTransform/>
+                    <RotateTransform x:Name="anguloSegundos" Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+
+    </Grid>
+</UserControl>
