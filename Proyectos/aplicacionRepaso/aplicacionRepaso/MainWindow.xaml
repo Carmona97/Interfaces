@@ -1,0 +1,18 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:aplicacionRepaso"
+        xmlns:componenteRepaso="clr-namespace:componenteRepaso;assembly=componenteRepaso" x:Class="aplicacionRepaso.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+
+        <componenteRepaso:UserControl1 x:Name="miControl" Margin="10,10,258,57" maximoCaracteresTexto="5" maximoElementosLista="5" fondoSlider="#FF004673"/>
+        <TextBox x:Name="mayorLongitud" HorizontalAlignment="Left" Margin="596,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="mostrarElemento" Content="buscar" HorizontalAlignment="Left" Margin="636,90,0,0" VerticalAlignment="Top" Click="mostrarElemento_Click"/>
+        <Image x:Name="miImagen" HorizontalAlignment="Left" Height="140" Margin="555,177,0,0" VerticalAlignment="Top" Width="188" Source="/jase-bloor-oCZHIa1D4EU-unsplash.jpg" Visibility="Hidden"/>
+
+    </Grid>
+</Window>

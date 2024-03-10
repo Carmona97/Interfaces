@@ -1,0 +1,13 @@
+C:\Users\juanm\OneDrive\Escritorio\2DAM\Interfaces\Proyectos\componenteRepaso\componenteRepaso\bin\Debug\componenteRepaso.dll
+C:\Users\juanm\OneDrive\Escritorio\2DAM\Interfaces\Proyectos\componenteRepaso\componenteRepaso\bin\Debug\componenteRepaso.pdb
+C:\Users\juanm\OneDrive\Escritorio\2DAM\Interfaces\Proyectos\componenteRepaso\componenteRepaso\obj\Debug\componenteRepaso.csproj.AssemblyReference.cache
+C:\Users\juanm\OneDrive\Escritorio\2DAM\Interfaces\Proyectos\componenteRepaso\componenteRepaso\obj\Debug\UserControl1.g.cs
+C:\Users\juanm\OneDrive\Escritorio\2DAM\Interfaces\Proyectos\componenteRepaso\componenteRepaso\obj\Debug\componenteRepaso_MarkupCompile.cache
+C:\Users\juanm\OneDrive\Escritorio\2DAM\Interfaces\Proyectos\componenteRepaso\componenteRepaso\obj\Debug\componenteRepaso_MarkupCompile.lref
+C:\Users\juanm\OneDrive\Escritorio\2DAM\Interfaces\Proyectos\componenteRepaso\componenteRepaso\obj\Debug\UserControl1.baml
+C:\Users\juanm\OneDrive\Escritorio\2DAM\Interfaces\Proyectos\componenteRepaso\componenteRepaso\obj\Debug\componenteRepaso.g.resources
+C:\Users\juanm\OneDrive\Escritorio\2DAM\Interfaces\Proyectos\componenteRepaso\componenteRepaso\obj\Debug\componenteRepaso.Properties.Resources.resources
+C:\Users\juanm\OneDrive\Escritorio\2DAM\Interfaces\Proyectos\componenteRepaso\componenteRepaso\obj\Debug\componenteRepaso.csproj.GenerateResource.cache
+C:\Users\juanm\OneDrive\Escritorio\2DAM\Interfaces\Proyectos\componenteRepaso\componenteRepaso\obj\Debug\componenteRepaso.csproj.CoreCompileInputs.cache
+C:\Users\juanm\OneDrive\Escritorio\2DAM\Interfaces\Proyectos\componenteRepaso\componenteRepaso\obj\Debug\componenteRepaso.dll
+C:\Users\juanm\OneDrive\Escritorio\2DAM\Interfaces\Proyectos\componenteRepaso\componenteRepaso\obj\Debug\componenteRepaso.pdb
