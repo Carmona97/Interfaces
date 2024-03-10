@@ -59,3 +59,24 @@ C:\Users\Juanma\Desktop\2 DAM\Interfaces\EmpleadosNuevo\EmpleadosNuevo\obj\Debug
 C:\Users\Juanma\Desktop\2 DAM\Interfaces\EmpleadosNuevo\EmpleadosNuevo\obj\Debug\net6.0-windows\EmpleadosNuevo.pdb
 C:\Users\Juanma\Desktop\2 DAM\Interfaces\EmpleadosNuevo\EmpleadosNuevo\obj\Debug\net6.0-windows\EmpleadosNuevo.genruntimeconfig.cache
 C:\Users\Juanma\Desktop\2 DAM\Interfaces\EmpleadosNuevo\EmpleadosNuevo\obj\Debug\net6.0-windows\ref\EmpleadosNuevo.dll
+C:\Users\juanm\OneDrive\Escritorio\2DAM\Interfaces\Proyectos\EmpleadosNuevo\EmpleadosNuevo\bin\Debug\net6.0-windows\EmpleadosNuevo.exe
+C:\Users\juanm\OneDrive\Escritorio\2DAM\Interfaces\Proyectos\EmpleadosNuevo\EmpleadosNuevo\bin\Debug\net6.0-windows\EmpleadosNuevo.deps.json
+C:\Users\juanm\OneDrive\Escritorio\2DAM\Interfaces\Proyectos\EmpleadosNuevo\EmpleadosNuevo\bin\Debug\net6.0-windows\EmpleadosNuevo.runtimeconfig.json
+C:\Users\juanm\OneDrive\Escritorio\2DAM\Interfaces\Proyectos\EmpleadosNuevo\EmpleadosNuevo\bin\Debug\net6.0-windows\EmpleadosNuevo.dll
+C:\Users\juanm\OneDrive\Escritorio\2DAM\Interfaces\Proyectos\EmpleadosNuevo\EmpleadosNuevo\bin\Debug\net6.0-windows\EmpleadosNuevo.pdb
+C:\Users\juanm\OneDrive\Escritorio\2DAM\Interfaces\Proyectos\EmpleadosNuevo\EmpleadosNuevo\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\juanm\OneDrive\Escritorio\2DAM\Interfaces\Proyectos\EmpleadosNuevo\EmpleadosNuevo\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\juanm\OneDrive\Escritorio\2DAM\Interfaces\Proyectos\EmpleadosNuevo\EmpleadosNuevo\obj\Debug\net6.0-windows\EmpleadosNuevo_MarkupCompile.cache
+C:\Users\juanm\OneDrive\Escritorio\2DAM\Interfaces\Proyectos\EmpleadosNuevo\EmpleadosNuevo\obj\Debug\net6.0-windows\EmpleadosNuevo_MarkupCompile.lref
+C:\Users\juanm\OneDrive\Escritorio\2DAM\Interfaces\Proyectos\EmpleadosNuevo\EmpleadosNuevo\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\juanm\OneDrive\Escritorio\2DAM\Interfaces\Proyectos\EmpleadosNuevo\EmpleadosNuevo\obj\Debug\net6.0-windows\EmpleadosNuevo.g.resources
+C:\Users\juanm\OneDrive\Escritorio\2DAM\Interfaces\Proyectos\EmpleadosNuevo\EmpleadosNuevo\obj\Debug\net6.0-windows\EmpleadosNuevo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\juanm\OneDrive\Escritorio\2DAM\Interfaces\Proyectos\EmpleadosNuevo\EmpleadosNuevo\obj\Debug\net6.0-windows\EmpleadosNuevo.AssemblyInfoInputs.cache
+C:\Users\juanm\OneDrive\Escritorio\2DAM\Interfaces\Proyectos\EmpleadosNuevo\EmpleadosNuevo\obj\Debug\net6.0-windows\EmpleadosNuevo.AssemblyInfo.cs
+C:\Users\juanm\OneDrive\Escritorio\2DAM\Interfaces\Proyectos\EmpleadosNuevo\EmpleadosNuevo\obj\Debug\net6.0-windows\EmpleadosNuevo.csproj.CoreCompileInputs.cache
+C:\Users\juanm\OneDrive\Escritorio\2DAM\Interfaces\Proyectos\EmpleadosNuevo\EmpleadosNuevo\obj\Debug\net6.0-windows\EmpleadosNuevo.sourcelink.json
+C:\Users\juanm\OneDrive\Escritorio\2DAM\Interfaces\Proyectos\EmpleadosNuevo\EmpleadosNuevo\obj\Debug\net6.0-windows\EmpleadosNuevo.dll
+C:\Users\juanm\OneDrive\Escritorio\2DAM\Interfaces\Proyectos\EmpleadosNuevo\EmpleadosNuevo\obj\Debug\net6.0-windows\refint\EmpleadosNuevo.dll
+C:\Users\juanm\OneDrive\Escritorio\2DAM\Interfaces\Proyectos\EmpleadosNuevo\EmpleadosNuevo\obj\Debug\net6.0-windows\EmpleadosNuevo.pdb
+C:\Users\juanm\OneDrive\Escritorio\2DAM\Interfaces\Proyectos\EmpleadosNuevo\EmpleadosNuevo\obj\Debug\net6.0-windows\EmpleadosNuevo.genruntimeconfig.cache
+C:\Users\juanm\OneDrive\Escritorio\2DAM\Interfaces\Proyectos\EmpleadosNuevo\EmpleadosNuevo\obj\Debug\net6.0-windows\ref\EmpleadosNuevo.dll

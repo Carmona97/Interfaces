@@ -1,0 +1,13 @@
+C:\Users\juanm\OneDrive\Escritorio\2DAM\Interfaces\Proyectos\relojAnalogico3\relojAnalogico3\bin\Debug\relojAnalogico3.dll
+C:\Users\juanm\OneDrive\Escritorio\2DAM\Interfaces\Proyectos\relojAnalogico3\relojAnalogico3\bin\Debug\relojAnalogico3.pdb
+C:\Users\juanm\OneDrive\Escritorio\2DAM\Interfaces\Proyectos\relojAnalogico3\relojAnalogico3\obj\Debug\relojAnalogico3.csproj.AssemblyReference.cache
+C:\Users\juanm\OneDrive\Escritorio\2DAM\Interfaces\Proyectos\relojAnalogico3\relojAnalogico3\obj\Debug\UserControl1.g.cs
+C:\Users\juanm\OneDrive\Escritorio\2DAM\Interfaces\Proyectos\relojAnalogico3\relojAnalogico3\obj\Debug\relojAnalogico3_MarkupCompile.cache
+C:\Users\juanm\OneDrive\Escritorio\2DAM\Interfaces\Proyectos\relojAnalogico3\relojAnalogico3\obj\Debug\relojAnalogico3_MarkupCompile.lref
+C:\Users\juanm\OneDrive\Escritorio\2DAM\Interfaces\Proyectos\relojAnalogico3\relojAnalogico3\obj\Debug\UserControl1.baml
+C:\Users\juanm\OneDrive\Escritorio\2DAM\Interfaces\Proyectos\relojAnalogico3\relojAnalogico3\obj\Debug\relojAnalogico3.g.resources
+C:\Users\juanm\OneDrive\Escritorio\2DAM\Interfaces\Proyectos\relojAnalogico3\relojAnalogico3\obj\Debug\relojAnalogico3.Properties.Resources.resources
+C:\Users\juanm\OneDrive\Escritorio\2DAM\Interfaces\Proyectos\relojAnalogico3\relojAnalogico3\obj\Debug\relojAnalogico3.csproj.GenerateResource.cache
+C:\Users\juanm\OneDrive\Escritorio\2DAM\Interfaces\Proyectos\relojAnalogico3\relojAnalogico3\obj\Debug\relojAnalogico3.csproj.CoreCompileInputs.cache
+C:\Users\juanm\OneDrive\Escritorio\2DAM\Interfaces\Proyectos\relojAnalogico3\relojAnalogico3\obj\Debug\relojAnalogico3.dll
+C:\Users\juanm\OneDrive\Escritorio\2DAM\Interfaces\Proyectos\relojAnalogico3\relojAnalogico3\obj\Debug\relojAnalogico3.pdb

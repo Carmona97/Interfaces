@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pruebaComponente", "pruebaComponente\pruebaComponente.csproj", "{5373069D-5FC6-4E39-A0E7-4B2E0BE30E44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{696F1E74-B02C-426C-8E99-DEB5F4FA05E2}"
+	ProjectSection(SolutionItems) = preProject
+		..\relojAnalogico3\relojAnalogico3\bin\Debug\relojAnalogico3.dll = ..\relojAnalogico3\relojAnalogico3\bin\Debug\relojAnalogico3.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "relojAnalogico3", "..\relojAnalogico3\relojAnalogico3\relojAnalogico3.csproj", "{08E7E242-C1CD-4577-BD80-E2474A46A4DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5373069D-5FC6-4E39-A0E7-4B2E0BE30E44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5373069D-5FC6-4E39-A0E7-4B2E0BE30E44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5373069D-5FC6-4E39-A0E7-4B2E0BE30E44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5373069D-5FC6-4E39-A0E7-4B2E0BE30E44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08E7E242-C1CD-4577-BD80-E2474A46A4DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08E7E242-C1CD-4577-BD80-E2474A46A4DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08E7E242-C1CD-4577-BD80-E2474A46A4DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08E7E242-C1CD-4577-BD80-E2474A46A4DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C7D986F-D524-4131-832F-C7D67F106C55}
+	EndGlobalSection
+EndGlobal
