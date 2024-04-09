@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:EmpleadosNuevo"
         xmlns:Collections="clr-namespace:System.Collections;assembly=System.Runtime" x:Class="EmpleadosNuevo.MainWindow"
         mc:Ignorable="d"
-        Title="MainWindow" Height="1012" Width="1464" MinWidth="1200" MinHeight="700" SizeToContent="WidthAndHeight" ResizeMode="CanResizeWithGrip">
+        Title="MainWindow" Height="1012" Width="1600" MinWidth="1470" MinHeight="900" SizeToContent="WidthAndHeight" ResizeMode="CanResizeWithGrip">
     <Grid MinWidth="200" MinHeight="420" Background="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}" Margin="10,0,0,0" Height="968" VerticalAlignment="Center" HorizontalAlignment="Left" Width="535">
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
